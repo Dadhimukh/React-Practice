@@ -1,0 +1,46 @@
+   import React from "react";
+   import Props from "./components/Props";
+
+   const App = () => {
+   const details = {
+      name: "Dadhimukh",
+      phone: 999999,
+      add: "chandrapur",
+   };
+   
+   return (
+      <div>
+         {/* <Props details={"Name.Dadhimukh"} />
+         <Props details={"Mobile:999"} />
+         <Props details={"Add:cdsa"} /> */}
+         <Props details={details} />
+      </div>
+   );
+   };
+
+   export default App;
+
+
+
+
+
+
+
+
+
+
+
+   import React from "react";
+
+   const Props = (props) => {
+   // console.log(props)
+   return (
+      <div style={{display:"flex",alignItems:"center",flexDirection:"column"}}>
+         <div style={{ color: "red" }}>{props.details.name}</div>
+         <div style={{ color: "red" }}>{props.details.phone}</div>
+         <div style={{ color: "red" }}>{props.details.add}</div>
+      </div>
+   );
+   };
+
+   export default Props;
