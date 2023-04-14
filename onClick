@@ -1,0 +1,22 @@
+import './App.css'
+
+function App() {
+
+  const handleChange = (e)=>{
+    e.preventDefault();
+    console.log(e.target.value);
+    // let nam = e.target.value;
+    // return nam;
+  }
+
+  return (
+    <div className="App">
+      <form>
+        <input type="text" onChange={handleChange} />
+      </form>
+      <p></p>
+    </div>
+  );
+}
+
+export default App
