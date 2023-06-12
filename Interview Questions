@@ -1,5 +1,5 @@
 what is react ?
-                React is a javascript liberary, which is used to create UI (UserInterface) Components.
+                React is an open-source javascript liberary, which is used to create UI (UserInterfaces) for web applications..
 
 
 What is babel ?
@@ -9,9 +9,8 @@ What is babel ?
 
 
 What is JSX?
-              JSX stands for JavaScript XML.
-
-              JSX is an XML/HTML like extension to JavaScript.
+              JSX (JavaScript XML) is a JavaScript syntactic extension that is used in React to describe the structure and look of components. 
+              It enables developers to construct and maintain user interfaces by allowing them to write HTML-like code within JavaScript.
               
               
 What is the use of React DOM Render method
@@ -122,12 +121,41 @@ Rich ecosystem and community:
 
                                                 
                                                 
-What is React?
-What are the features of React?
+
+
+
+
+What are the features of React? 
+                                  Major features of React are listed below:
+
+                                  It uses the virtual DOM instead of the real DOM.
+                                  It uses server-side rendering.
+                                  It follows uni-directional data flow or data binding.
+
+
+
 List some of the major advantages of React.
 What are the limitations of React?
-What is JSX?
+
+
+
+
+
+
+
+
+
+
+
+
 Why can't browsers read JSX?
+                            Web browsers are designed to understand HTML, CSS, and JavaScript, but not JSX. 
+                            JSX is a syntactic extension that is only used by React and is not widely accepted in web development. 
+                            As a result, browsers cannot parse and execute JSX code natively. Prior to browser execution, 
+                            JSX must be transpilated into ordinary JavaScript code.                              
+                              
+                              
+                              
 How different is React's ES6 syntax when compared to ES5?
                
                 
