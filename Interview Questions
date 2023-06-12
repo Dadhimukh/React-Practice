@@ -8,3 +8,31 @@ What is babel ?
 ==========> React uses Babel to convert JSX into JavaScript.
 
 
+What is JSX?
+              JSX stands for JavaScript XML.
+
+              JSX is an XML/HTML like extension to JavaScript.
+              
+              
+What is the use of React DOM Render method
+                         The method ReactDom.render() is used to render (display) HTML elements
+                 
+                 
+                 
+                 
+                 
+JSX Expressions
+                Expressions can be used in JSX by wrapping them in curly {} braces
+                
+                
+                
+                
+                
+                
+React Elements
+                React applications are usually built around a single HTML element.
+                React developers often call this the root node
+                
+                
+                
+                
