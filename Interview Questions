@@ -38,5 +38,70 @@ React Elements
                 React elements are immutable. They cannot be changed.
   
                 The only way to change a React element is to render a new element every time
+                
+                
+                
+                
+                
+                
+Differentiate between Real DOM and Virtual DOM.
+                                                Real DOM: The Real DOM represents the actual HTML structure of a web page. 
+                                                It is a tree-like structure that consists of nodes representing HTML elements, attributes, and text content.
+                                                Virtual DOM: The Virtual DOM is a lightweight copy or abstraction of the Real DOM. It is a JavaScript representation of the UI, 
+                                                maintained in memory. It is not directly rendered on the screen but acts as a blueprint of the Real DOM.
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+Component-based architecture:
+                              React allows developers to split her UI into reusable components. 
+                              Each component maintains its own state and can be assembled to create complex user interfaces. 
+                              This modular approach promotes reusability, maintainability, and isolation of code concerns. 
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+Virtual DOM:  
+              Virtual DOM, which is a lightweight duplicate of the actual HTML DOM.
+              The Virtual DOM enables React to effectively update and render UI components while making little changes to the real DOM. 
+              This optimisation improves speed and creates a more pleasant user experience.
+              
+              
+              
+              
+              
+              
+              
+JSX syntax: 
+            React utilizes JSX (JavaScript XML), an extension to JavaScript, to define the structure and appearance of components. 
+            JSX allows developers to write HTML-like code within JavaScript, which is then transpiled into regular JavaScript during the build process. 
+            This combination of JavaScript and HTML makes component creation and composition more intuitive and readable.
+            
+            
+            
+            
+            
+            
+           
+Unidirectional data flow: 
+                          React uses unidirectional data flow, commonly known as one-way binding.
+                          Props (properties) provide data from the parent component to the child component, 
+                          and callbacks allow the child component to communicate with the parent component. 
+                          This approach streamlines data management and reduces the potential for unintended side effects.  
+
+
+                                                
+                                                
+What is React?
+What are the features of React?
+List some of the major advantages of React.
+What are the limitations of React?
+What is JSX?
+Why can't browsers read JSX?
+How different is React's ES6 syntax when compared to ES5?
                
                 
