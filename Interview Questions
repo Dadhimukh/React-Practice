@@ -146,8 +146,6 @@ What are the limitations of React?
 
 
 
-
-
 Why can't browsers read JSX?
                             Web browsers are designed to understand HTML, CSS, and JavaScript, but not JSX. 
                             JSX is a syntactic extension that is only used by React and is not widely accepted in web development. 
