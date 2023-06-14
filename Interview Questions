@@ -69,7 +69,7 @@ Virtual DOM:
               The Virtual DOM enables React to effectively update and render UI components while making little changes to the real DOM. 
               This optimisation improves speed and creates a more pleasant user experience.
               
-              
+             
               
               
               
