@@ -154,4 +154,27 @@ Why can't browsers read JSX?
                               
 How different is React's ES6 syntax when compared to ES5?
                
+               
+               
+               
+               
+               
+               
+               
+   
+What is useState() in React?
+                            The useState() is a built-in React Hook that allows you for having state variables in functional components. 
+                            It should be used when the DOM has something that is dynamically manipulating/controlling.
+                            
+                            EXAMPLE
+                                        const [count, setCounter] = useState(0);
+                                        const [otherStuffs, setOtherStuffs] = useState(...);
+                                        ...
+                                        const setCount = () => {
+                                           setCounter(count + 1);
+                                           setOtherStuffs(...);
+                                           ...
+                                        };
+
+
                 
