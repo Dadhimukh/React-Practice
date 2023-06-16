@@ -237,4 +237,35 @@ WHat is Contaxt API in react ?
                                 useContext helps to avoid props drilling.
                                 
                                 
+                                
+                                
+                                
+                                
+                                
+                                
+How to handle error boundaries in react ?
+                                          To handle errors, wrap components with the error boundary class component. You can wrap the top-level component or individual components. 
+                                          If you wrap the top-level component, the error boundary class will handle the errors thrown by all the components in the React application.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+What Is the Error Boundary Class in React?
+                                          Error boundaries work like the try/catch block in vanilla JavaScript. 
+                                          The difference is that they catch the errors that occur in React components.
+                                          If an error occurs in a UI component, React unmounts the tree within that component and replaces it with the fallback UI you have defined. 
+                                          This means that an error only affects the component in which it occurs and the rest of the application works as expected.
+                                          
+                                
+                                
                 
