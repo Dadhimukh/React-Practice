@@ -219,4 +219,22 @@ Explain the lifecycle methods of React components in detail.
                                                               componentWillUpdate() – Called just before rendering takes place in the DOM.
                                                               componentDidUpdate() – Called immediately after rendering takes place.
                                                               componentWillUnmount() – Called after the component is unmounted from the DOM. It is used to clear up the memory spaces.
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+WHat is Contaxt API in react ?
+                                The Contaxt API is provided by React to solve the issue of sharing state between multiple components within an app.
+                                Before context was introduced, the only option was a bring in a seprate state management library, such as Redux.
+                                However, many developer feel that Redux intriduces a lot of unnecessary complexity, especially for smaller applications.
+                                useContext helps to avoid props drilling.
+                                
+                                
                 
