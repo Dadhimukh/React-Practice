@@ -266,6 +266,31 @@ What Is the Error Boundary Class in React?
                                           If an error occurs in a UI component, React unmounts the tree within that component and replaces it with the fallback UI you have defined. 
                                           This means that an error only affects the component in which it occurs and the rest of the application works as expected.
                                           
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+What is an event in react ?
+                            An event is an action that could be triggered as a result of the user action or system generated event. 
+                            For example, a mouse click, loading of a web page, pressing a key, window resizes, and other interactions are called events.
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+
                                 
                                 
                 
