@@ -288,6 +288,23 @@ What is an event in react ?
                             
                             
                             
+                           
+What are synthetic events in React?
+                                    The synthetic events in react are the object in react, which acts as a cross-browser wrapper around the browser's
+                                    nativ event. The main purpose is to combine the different browsers on the api so that the event shows the various properties.
+                                    
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             
                             
 
