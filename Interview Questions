@@ -314,6 +314,9 @@ What is the react roouter ?
                             
                             
                             
+What are Hooks? 
+                Hooks are functions that let us “hook into” React state and lifecycle features from a functional component.
+                React Hooks cannot be used in class components. They let us write components without class.
                             
                             
                             
