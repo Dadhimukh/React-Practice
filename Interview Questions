@@ -43,6 +43,8 @@ React Elements
                 
                 
                 
+                
+                
 Differentiate between Real DOM and Virtual DOM.
                                                 Real DOM: The Real DOM represents the actual HTML structure of a web page. 
                                                 It is a tree-like structure that consists of nodes representing HTML elements, attributes, and text content.
