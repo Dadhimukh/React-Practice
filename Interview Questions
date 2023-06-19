@@ -28,14 +28,13 @@ JSX Expressions
                 
                 
                 
+                
+                
 React Elements
                 React applications are usually built around a single HTML element.
                 React developers often call this the root node
-                
                 Elements are rendered (displayed) with the ReactDOM.render() method
-                
                 React elements are immutable. They cannot be changed.
-  
                 The only way to change a React element is to render a new element every time
                 
                 
