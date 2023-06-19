@@ -129,10 +129,13 @@ Rich ecosystem and community:
 
 What are the features of React? 
                                   Major features of React are listed below:
-
                                   It uses the virtual DOM instead of the real DOM.
                                   It uses server-side rendering.
                                   It follows uni-directional data flow or data binding.
+
+
+
+
 
 
 
@@ -151,6 +154,9 @@ Why can't browsers read JSX?
                             JSX is a syntactic extension that is only used by React and is not widely accepted in web development. 
                             As a result, browsers cannot parse and execute JSX code natively. Prior to browser execution, 
                             JSX must be transpilated into ordinary JavaScript code.                              
+                              
+                              
+                              
                               
                               
                               
