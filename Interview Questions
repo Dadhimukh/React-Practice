@@ -65,7 +65,8 @@ Component-based architecture:
                                                 
                                                 
                                                 
-                                                
+
+
 Virtual DOM:  
               Virtual DOM, which is a lightweight duplicate of the actual HTML DOM.
               The Virtual DOM enables React to effectively update and render UI components while making little changes to the real DOM. 
