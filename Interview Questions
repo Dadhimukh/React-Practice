@@ -61,7 +61,8 @@ Component-based architecture:
                               Each component maintains its own state and can be assembled to create complex user interfaces. 
                               This modular approach promotes reusability, maintainability, and isolation of code concerns. 
                                                 
-                                                
+
+
                                                 
                                                 
                                                 
