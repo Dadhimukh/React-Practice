@@ -10,6 +10,7 @@ What is babel ?
 
 
 
+
 What is JSX?
               JSX (JavaScript XML) is a JavaScript syntactic extension that is used in React to describe the structure and look of components. 
               It enables developers to construct and maintain user interfaces by allowing them to write HTML-like code within JavaScript.
