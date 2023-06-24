@@ -7,6 +7,7 @@ what is react ?
 What is babel ?
                 Bable is a javascript compiler that can translate markup or programming language into javascript.
 
+
                 
 ==========> React uses Babel to convert JSX into JavaScript.
 
