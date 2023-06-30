@@ -120,6 +120,7 @@ Unidirectional data flow:
 
 
 
+
 React Hooks:  
               React Hooks allow you to access state and other React capabilities in functional components.
               This allows developers to handle stateful logic without creating class components, 
@@ -485,7 +486,8 @@ Note: React.memo() is a higher-order component.
                             
                             
                             
-                            
+        
+                    
                             
 What are synthetic events in React?
 SyntheticEvent is a cross-browser wrapper around the browser's native event. Its API is same as the browser's native event, including stopPropagation() and preventDefault(), except the events work identically across all browsers. The native events can be accessed directly from synthetic events using nativeEvent attribute.
