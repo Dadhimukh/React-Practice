@@ -67,7 +67,8 @@ Differentiate between Real DOM and Virtual DOM.
                                                 
                                                 
                                                 
-                                                
+              
+                                     
                                                 
 Component-based architecture:
                               React allows developers to split her UI into reusable components. 
