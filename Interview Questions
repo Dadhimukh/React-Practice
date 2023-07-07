@@ -32,6 +32,9 @@ What is JSX?
 
 
 
+
+
+
 What is the use of React DOM Render method
                                              The method ReactDom.render() is used to render (display) HTML elements
 
