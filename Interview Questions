@@ -44,7 +44,11 @@ What is JSX?
 
 
 
-
+Why we use JSX?
+It is faster than regular JavaScript because it performs optimization while translating the code to JavaScript.
+Instead of separating technologies by putting markup and logic in separate files, React uses components that contain both.
+t is type-safe, and most of the errors can be found at compilation time.
+It makes easier to create templates.
 
 
 
