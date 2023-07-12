@@ -58,7 +58,17 @@ What is the use of React DOM Render method
                                              The method ReactDom.render() is used to render (display) HTML elements
 
 
-                 
+
+ What is the difference between Real DOM and Virtual DOM?
+The following table specifies the key differences between the Real DOM and Virtual DOM:
+
+The real DOM creates a new DOM if the element updates.
+Real DOM	Virtual DOM
+The real DOM updates slower.	The virtual DOM updates faster.
+The real DOM can directly update HTML.	The virtual DOM cannot directly update HTML.
+The virtual DOM updates the JSX if the element updates.
+In real DOM, DOM manipulation is very expensive.	In virtual DOM, DOM manipulation is very easy.
+There is a lot of memory wastage in The real DOM.	There is no memory wastage in the virtual DOM.
                  
                  
                  
