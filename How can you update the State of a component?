@@ -1,0 +1,32 @@
+We can update the State of a component using this.setState() method. 
+This method does not always replace the State immediately. Instead, it only adds changes to the original State. 
+It is a primary method which is used to update the user interface(UI) in response to event handlers and server responses.
+
+Example
+
+import React, { Component } from 'react';  
+import PropTypes from 'prop-types';  
+  
+class App extends React.Component {  
+   constructor() {  
+      super();        
+      this.state = {  
+          msg: "Welcome to JavaTpoint"  
+      };      
+      this.updateSetState = this.updateSetState.bind(this);  
+   }  
+   updateSetState() {  
+       this.setState({  
+          msg:"Its a best ReactJS tutorial"  
+       });  
+   }  
+   render() {  
+      return (  
+         <div>  
+             <h1>{this.state.msg}</h1>  
+             <button onClick = {this.updateSetState}>SET STATE</button>  
+         </div>  
+      );  
+   }  
+}  
+export default App;
