@@ -77,7 +77,31 @@ JSX Expressions
                 
                 
                 
-                
+
+
+
+How can you embed two or more components into one?
+                                                  You can embed two or more components into the following way:
+                                                  
+                                                  import React from 'react'  
+                                                     
+                                                  class App extends React.Component {  
+                                                     render (){  
+                                                        return (  
+                                                           <h1>Hello World</h1>  
+                                                        )  
+                                                     }  
+                                                  }  
+                                                     
+                                                  class Example extends React.Component {  
+                                                     render (){  
+                                                        return (  
+                                                           <h1>Hello JavaTpoint</h1>  
+                                                        )  
+                                                     }  
+                                                  }  
+                                                  export default App  
+
                 
                 
                 
