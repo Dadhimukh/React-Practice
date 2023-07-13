@@ -1,0 +1,27 @@
+The State is an updatable structure which holds the data and information about the component. 
+It may be changed over the lifetime of the component in response to user action or system event. 
+It is the heart of the react component which determines the behavior of the component and how it will render. 
+It must be kept as simple as possible.
+
+Let's create a "User" component with "message state."
+
+import React from 'react'  
+  
+class User extends React.Component {  
+  constructor(props) {  
+    super(props)  
+  
+    this.state = {  
+      message: 'Welcome to JavaTpoint'  
+    }  
+  }  
+  
+  render() {  
+    return (  
+      <div>  
+        <h1>{this.state.message}</h1>  
+      </div>  
+    )  
+  }  
+}  
+export default User
