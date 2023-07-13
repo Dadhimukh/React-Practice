@@ -1,0 +1,8 @@
+Props stand for "Properties" in React. They are read-only inputs to components. Props are an object 
+which stores the value of attributes of a tag and work similar to the HTML attributes. 
+It gives a way to pass data from the parent to the child components throughout the application.
+
+It is similar to function arguments and passed to the component in the same way as arguments passed in a function.
+
+Props are immutable so we cannot modify the props from inside the component. Inside the components, we can add attributes called props. 
+These attributes are available in the component as this.props and can be used to render dynamic data in our render method.
