@@ -1,0 +1,12 @@
+Refs can be created by using React.createRef() and attached to React elements via the ref attribute. 
+It is commonly assigned to an instance property when a component is created, and then can be referenced throughout the component.
+
+class MyComponent extends React.Component {  
+  constructor(props) {  
+    super(props);  
+    this.callRef = React.createRef();  
+  }  
+  render() {  
+    return <div ref={this.callRef} />;  
+  }  
+}  
