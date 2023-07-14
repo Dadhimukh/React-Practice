@@ -1,0 +1,6 @@
+Web browsers can't read JSX directly. This is because the web browsers are built to read the regular JS objects only, 
+and JSX is not a regular JavaScript object.
+
+If you want a web browser to read a JSX file, you must transform the files into a regular JavaScript object. 
+For this purpose, Babel is used.
+
