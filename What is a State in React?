@@ -3,7 +3,10 @@ It may be changed over the lifetime of the component in response to user action 
 It is the heart of the react component which determines the behavior of the component and how it will render. 
 It must be kept as simple as possible.
 
+
 Let's create a "User" component with "message state."
+
+
 
 import React from 'react'  
   
