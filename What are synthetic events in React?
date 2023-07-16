@@ -1,0 +1,16 @@
+A synthetic event is an object which acts as a cross-browser wrapper around the browser's native event. 
+It combines the behavior of different browser's native event into one API, including stopPropagation() and preventDefault().
+
+In the given example, e is a Synthetic event.
+
+function ActionLink() {  
+    function handleClick(e) {  
+        e.preventDefault();  
+        console.log('You had clicked a Link.');  
+    }  
+    return (  
+        <a href="#" onClick={handleClick}>  
+              Click_Me  
+        </a>  
+    );  
+}  
