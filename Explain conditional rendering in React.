@@ -1,0 +1,9 @@
+Conditional rendering refers to the dynamic output of user interface markups based on a condition state. 
+It works in the same way as JavaScript conditions. Using conditional rendering, it is possible to toggle specific application functions, 
+API data rendering, hide or show elements, decide permission levels, authentication handling, and so on.
+
+There are different approaches for implementing conditional rendering in React. Some of them are:
+
+Using if-else conditional logic which is suitable for smaller as well as for medium-sized applications
+Using ternary operators, which takes away some amount of complication from if-else statements
+Using element variables, which will enable us to write cleaner code.
