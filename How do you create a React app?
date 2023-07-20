@@ -1,0 +1,8 @@
+Install NodeJS on the computer because we need npm to install the React library. 
+Npm is the node package manager that contains many JavaScript libraries, including React.
+
+Install the create-react-app package using the command prompt or terminal.
+
+
+Install a text editor of your choice, like VS Code or Sublime Text.
+
