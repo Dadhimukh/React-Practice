@@ -2,3 +2,19 @@ An arrow function is a short way of writing a function to React.
 
 It is unnecessary to bind ‘this’ inside the constructor when using an arrow function. 
 This prevents bugs caused by the use of ‘this’ in React callbacks.
+
+
+without arrow function
+render() {
+      return(
+            <MyInput onChange={this.handleChange.bind(this)} />
+            );
+          }
+
+
+with arrow function
+render() {
+        return(
+              <MyInput onChange={(e)=> this.handleOnChange(e)} />
+              );
+          }
