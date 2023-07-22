@@ -1,0 +1,18 @@
+We can implement routing in our React application using this method:
+
+Considering we have the components App, About, and Contact in our application:
+
+
+const routing = (
+                  <Router>
+                    <div>
+                        <h1>React Router Example</h1>
+                        <Route path="/" component={App}/>
+                        <Route path="/about" component={About}/>
+                        <Route path="/contact" component={Contact}/>
+                    </div>
+                </Router>
+              );
+
+
+
