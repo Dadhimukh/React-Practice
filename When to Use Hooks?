@@ -1,0 +1,6 @@
+If you are working on a web development project using React JS, and after coding a component function, 
+you want to add some states. In such a scenario, you can use Hooks.
+
+To add those states, earlier you would have to convert it to a class, and then you could perform a particular function, 
+but now, by using Hooks, you can hook it to the existing function component.
+
