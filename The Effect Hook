@@ -1,0 +1,46 @@
+The Effect Hook, useEffect, adds the ability to perform side effects from a function component.
+
+You tell React to run your "effect" code after flushing changes to the DOM when you call useEffect. Effects have access to the component's props and state because they are declared inside it. React runs the effects after every render by default, including the first one.
+
+Consider the following piece of code. 
+
+import React, { useState, useEffect } from 'react';
+
+function Example() {
+
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+
+    document.title = `You clicked ${count} times`;
+
+  });
+
+  return (
+
+    <div>
+
+      <p>You clicked {count} times</p>
+
+      <button onClick={() => setCount(count + 1)}>
+
+        Click me
+
+      </button>
+
+    </div>
+
+  );
+
+}
+
+export default Example
+
+
+
+
+
+
+
+
+
