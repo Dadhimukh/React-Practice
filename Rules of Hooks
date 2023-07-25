@@ -1,0 +1,13 @@
+The functionalities and features of Hooks are similar to Javascript functions. 
+However, before using them, you need to keep specific rules in mind, as these rules 
+ensure that all the stateful logic in a functional component is visible in its source code. 
+
+Rule 1: Only Call Hooks at the Top Level
+Hooks aren't supposed to be called from loops, conditions, or nested functions. 
+Hooks should always be utilized at the top level of React methods. 
+This rule ensures that Hooks are called in the same order each time a component renders.
+
+Rule 2: Only Call Hooks from React Functions
+Hooks can't be called from JavaScript functions. Hooks can be called from React 
+function components instead. Custom Hooks can also be used to call Hooks.
+
