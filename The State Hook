@@ -1,0 +1,52 @@
+In this example, you will look at a simple Counter function that increments the value when the user clicks on the button. 
+
+In the App.js file of your application, consider the following code:
+
+import React, { useState } from 'react';  
+
+function Counter() {  
+
+  // Declare a new state variable, which we'll call "count"  
+
+  const [count, setCount] = useState(0);  
+
+  return (  
+
+    <div>  
+
+      <p>You clicked {count} times</p>  
+
+      <button onClick={() => setCount(count + 1)}>  
+
+        Click here  
+
+      </button>  
+
+    </div>  
+
+  );  
+
+}  
+
+export default Counter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In the above example, useState is the Hook. 
+You call it inside a function component to add some local state to it. 
+Between re-renders, React will keep this state. useState returns a pair of values: the current state and a 
+function to update it. This function can be called from an event handler or from anywhere else. It's a lot 
+like this.setState in a class, except that it does not merge the old and new states.
+
