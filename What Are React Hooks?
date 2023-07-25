@@ -1,0 +1,7 @@
+Hooks are a new functionality that was introduced in React 16.8. You can use state,
+and other React capabilities without writing a class. Hooks are React state and lifecycle features 
+from function components that "hook into" hooks. They are also backward-compatible. 
+
+If you create a functional component and later wish to add any state to it, you must first convert it to a class. 
+However, you can now incorporate a Hook into an existing function component.
+
