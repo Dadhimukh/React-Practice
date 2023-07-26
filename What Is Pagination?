@@ -20,3 +20,20 @@ readable style. This strategy comes in handy when you have many things to displa
 
 <Pagination count={10} disabled />
 
+
+
+Outlined Pagination
+Pagination with outlines is a pagination in which brief remarks or outlines follow page numbers. 
+These outlines can include information such as the page's topic content or a brief synopsis.
+
+This Pagination in React JS pattern is commonly found in reference volumes and other works requiring extensive explanations and analysis. 
+The outlines help readers scan the book for certain topics without reading all the pages to locate them.
+
+<Pagination count={10} variant="outlined" />
+
+<Pagination count={10} variant="outlined" color="primary" />
+
+<Pagination count={10} variant="outlined" color="secondary" />
+
+<Pagination count={10} variant="outlined" disabled />
+
