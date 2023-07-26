@@ -33,6 +33,24 @@ The outlines help readers scan the book for certain topics without reading all t
 
 <Pagination count={10} variant="outlined" color="primary" />
 
+
+
+
+Rounded Pagination
+Rounded pagination is a method of organizing material such that the next or previous page may be quickly found. 
+Instead of using serial numbers, rounded numbers are used in this pagination type. After each number in the list, 
+the number of pages will be presented in dots, making it easier for users to browse the site.
+
+There are various advantages to using rounded Pagination in React JS. It makes your site more user-friendly by clarifying 
+how many pages are available and how far they have progressed. Second, it can assist you in determining how much material 
+is displayed at any one time.
+
+<Pagination count={10} shape="rounded" />
+
+<Pagination count={10} variant="outlined" shape="rounded" />
+
+
+
 <Pagination count={10} variant="outlined" color="secondary" />
 
 <Pagination count={10} variant="outlined" disabled />
