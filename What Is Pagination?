@@ -55,3 +55,25 @@ is displayed at any one time.
 
 <Pagination count={10} variant="outlined" disabled />
 
+
+
+
+
+Pagination Size
+The number of posts per page is called the pagination size. Most blogs include this. 
+The number of posts per page is called the pagination size. Most blogs include this feature,
+which you may change to suit your needs.
+
+It's crucial to remember that this setting has no bearing on the overall number of posts displayed on your blog; 
+it simply impacts how many are displayed at any given time. If your blog has ten posts and the pagination size is set to 5, 
+you'll view five at a time, but if you click "next," you'll see another five entries.
+
+<Pagination count={10} size="small" />
+
+<Pagination count={10} />
+
+<Pagination count={10} size="large" />
+
+
+
+
