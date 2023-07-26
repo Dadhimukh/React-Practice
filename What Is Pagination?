@@ -97,3 +97,26 @@ On a pagination page with "Next," "Previous," and "First" buttons, for example, 
 Make sure your buttons are responsive: they should function properly regardless of how they are viewed 
 (and many people will be viewing them on smaller devices).
 
+
+
+
+
+
+Pagination Ranges
+The number of records to be included on each page of your search results is determined by pagination ranges. The default pagination ranges are specified, but you may adjust them.
+
+<Pagination count={11} defaultPage={6} siblingCount={0} />
+
+<Pagination count={11} defaultPage={6} /> {/* Default ranges */}
+
+<Pagination count={11} defaultPage={6} siblingCount={0} boundaryCount={2} />
+
+<Pagination count={11} defaultPage={6} boundaryCount={2} />
+
+Follow these methods to see or alter your pagination ranges:
+
+Log in to your [business name] account and go to "Settings" in the upper right corner.
+On the following page, on the left-hand side, click "Manage Searches," which will take you to a page with all of the searches you've 
+made accessible for management.
+Select the search title you want to change (at the top of the list). This process will open a new page with details about the search, 
+including Pagination in React JS ranges!
