@@ -157,3 +157,37 @@ Then click "Save Changes" after entering the number of items per page you want t
 
 <Pagination count={10} page={page} onChange={handleChange} />
 
+
+
+
+
+
+
+
+Table Pagination
+Paginating data presented in a table is known as table pagination. 
+This table is done to speed up the page load time and simplify the table data to read and evaluate for visitors. 
+
+<TablePagination
+
+  component="div"
+
+  count={100}
+
+  page={page}
+
+  onPageChange={handleChangePage}
+
+  rowsPerPage={rowsPerPage}
+
+  onRowsPerPageChange={handleChangeRowsPerPage}
+
+/>
+
+Some of the approaches for creating table pagination are as follows:
+
+Vertical pagination: This approach displays all of your table's rows on a single page, 
+divided by vertical lines or separators. Only that row appears on your screen when you click one of these dividers.
+Horizontal pagination: This approach lets you simultaneously view numerous rows in your web browser window. 
+You'll need more than one column in your table to do this; each row will be split by horizontal lines or dividers that span the 
+length of each cell in each column in which they appear (or both).
