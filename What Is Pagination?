@@ -1,0 +1,8 @@
+Pagination is a series of interconnected pages with similar material. 
+It's worth noting that we'll still refer to pagination when the material on a page segment is split into several pages.
+
+Pagination in React JS is especially useful for huge datasets, such as maps or visualizations, 
+where the number of elements presented may exceed the space provided on a single page. Pagination, 
+in this example, aids users in navigating enormous datasets by allowing them to hop without having to 
+navigate from one webpage to the next and reload each time they want to view anything new.
+
