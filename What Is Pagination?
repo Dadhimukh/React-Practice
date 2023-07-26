@@ -77,3 +77,23 @@ you'll view five at a time, but if you click "next," you'll see another five ent
 
 
 
+
+
+Buttons
+The pagination buttons are the most significant aspect of the user interface. It enables users to browse between pages and move ahead and backward. The buttons should be easy to identify and utilize so that users can navigate through the material without effort. Buttons are an important aspect of Pagination in React JS, although they aren't usually utilized correctly. 
+
+<Pagination count={10} showFirstButton showLastButton />
+
+<Pagination count={10} hidePrevButton hideNextButton />
+
+Here are some principles for creating clear and easy-to-use pagination buttons:
+
+Make the buttons large and distinct from the text. Because they're the sole means for your users to move around information, 
+you want them to be as big and obvious as possible.
+
+Make sure your buttons clearly state what will happen when they are clicked; otherwise, people may become confused and quit your site. 
+On a pagination page with "Next," "Previous," and "First" buttons, for example, ensure the "First" button isn't named "Prev," or vice versa!
+
+Make sure your buttons are responsive: they should function properly regardless of how they are viewed 
+(and many people will be viewing them on smaller devices).
+
