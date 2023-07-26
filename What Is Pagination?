@@ -120,3 +120,17 @@ On the following page, on the left-hand side, click "Manage Searches," which wil
 made accessible for management.
 Select the search title you want to change (at the top of the list). This process will open a new page with details about the search, 
 including Pagination in React JS ranges!
+
+
+
+
+
+Controlled Pagination
+It makes it easy for consumers to find the information they're searching for by allowing them to skip ahead and back over the data they've already viewed while staying on the current webpage.
+
+Controlled pagination also makes it simpler for users who use screen readers or other assistive technology to navigate between pages. It guarantees that all material is contained in each page's URL. This process ensures that any text below a specific point does not disappear while moving between pages.
+
+<Typography>Page: {page}</Typography>
+
+<Pagination count={10} page={page} onChange={handleChange} />
+
