@@ -6,3 +6,17 @@ where the number of elements presented may exceed the space provided on a single
 in this example, aids users in navigating enormous datasets by allowing them to hop without having to 
 navigate from one webpage to the next and reload each time they want to view anything new.
 
+
+
+Basic Pagination Example
+Basic pagination is a quick and straightforward technique to present text in an ordered, 
+readable style. This strategy comes in handy when you have many things to display, such as in a table or displaying search results.
+
+<Pagination count={10} />
+
+<Pagination count={10} color="primary" />
+
+<Pagination count={10} color="secondary" />
+
+<Pagination count={10} disabled />
+
