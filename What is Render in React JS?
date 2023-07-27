@@ -30,3 +30,27 @@ Virtual DOM defines the various options of scripting, hence it helps to optimize
 5. Enhanced Memory Usage 
 The Virtual DOM produces more enhanced memory usage mechanisms in the applications. It helps to automate the data model using the trigger mechanism and loads the real-time data in the virtual web user interface.  
 
+
+
+
+
+
+Purpose of Render
+We can use the ReactDOM.render() in the application using the declaration of HTML code and the HTML element. 
+The goal of this function is to represent the imposed HTML code within the specified HTML element tags. 
+It helps to redirect the HTML page with the help of the render() function.
+
+It can be immutable in a certain scenario when you create an element and then you can define it as constant, 
+hence it would not allow changing this.
+
+It helps to develop an application in a more presentable way using the below features:
+
+Open Source and Free
+Flexibility
+Decorators from ES7
+Server-side Intelligence
+Asynchronous Operations and Generators
+Flux Library Technique
+Restructuring Schemes
+Effectiveness of JSX
+
