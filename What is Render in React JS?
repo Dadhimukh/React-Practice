@@ -54,3 +54,25 @@ Flux Library Technique
 Restructuring Schemes
 Effectiveness of JSX
 
+
+
+
+
+
+Example of Using Render in React JS
+Rendering an Element Using the DOM
+
+Declare this below code in your HTML using Div
+
+<div id="Yourroot">
+</div>
+
+To render or redirect the element use below code 
+const root = ReactDOM.createRoot(document.getElementById('Yourroot'));
+
+const element = <h1>This is the initial example of React.JS</h1>;
+
+root.render(element);
+
+After running the above code snippet it will display the below output:
+
