@@ -1,0 +1,12 @@
+What Is Virtual DOM?
+VDOM determines, as a Virtual "Document object Model library", that it Displays instances in the UI with the help of defined certain logic. 
+We can also consider it as a library as ReactDOM. 
+
+The virtual DOM comprises the specific node tree, which has its elements and attributes with its properties and objects. Using the render() function,
+we can create a node using it is in-built react components and can do the modification of the node as per the action method in the data model. 
+It is a light JavaScript object and can be consumed easily in different applications as per certain project requirements.
+
+We can easily declare with the approach of React API functioning with DOM. It helps to maintain the event handling, and attribute manipulation 
+in the code logic.
+
+
