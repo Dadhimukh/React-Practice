@@ -76,3 +76,47 @@ root.render(element);
 
 After running the above code snippet it will display the below output:
 
+
+
+
+
+
+
+
+
+
+
+
+Updating the Rendered Element Using the DOM
+
+Declare this below code in your HTML using Div:
+
+<div id="yourroot">
+</div>
+
+As we discussed, React elements are constant and unchangeable(immutable). 
+Hence it can not be changed its attributes and children once it is defined. It can be displayed in the UI once your page loads.
+Here is below JS code for updating the render element:
+const root = ReactDOM.createRoot(document.getElementById('yourroot'));
+
+  function Timertick() {
+
+  const Testelement = (
+
+    <div>
+
+      <h1>This is the example of updating the render using DOM</h1>
+
+      <h2>Here is the current time {new Date().toLocaleTimeString()}.</h2>
+
+    </div>
+
+  );
+
+  root.render(Testelement);
+
+}
+
+setInterval(Timertick, 1000);
+
+After running the above code it will display the below output:
