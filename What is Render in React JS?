@@ -10,3 +10,23 @@ We can easily declare with the approach of React API functioning with DOM. It he
 in the code logic.
 
 
+Here are the excellent advantages of Virtual DOM using React.JS
+
+1. More Outstanding Performance
+Virtual DOM provides amazing performance using the setState() procedure. We can easily create this method and can render 
+it using the virtual DOM tree within the memory.
+
+2. Integrity and Simplicity
+It is more beneficial for the developers that they can efficiently use the React and Virtual DOM in a simpler way with the help
+of JavaScript and it can easily integrate into the application with no interventions.
+
+3. Efficiency
+Virtual DOM has the ability to handle the data transformations in the React web application inside the view. Virtual DOM is consistently 
+quicker than representing the UI in the original browser DOM.
+
+4. CPU Intensive 
+Virtual DOM defines the various options of scripting, hence it helps to optimize the best browser compatibility features hence It is more CPU-intensive 
+
+5. Enhanced Memory Usage 
+The Virtual DOM produces more enhanced memory usage mechanisms in the applications. It helps to automate the data model using the trigger mechanism and loads the real-time data in the virtual web user interface.  
+
