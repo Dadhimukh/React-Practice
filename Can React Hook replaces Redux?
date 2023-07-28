@@ -3,7 +3,6 @@ JavaScript library useful in managing the application state) when it comes to th
 state tree in large complex applications, even though the React will provide a useReducer hook that manages state transitions 
 similar to Redux. Redux is very useful at a lower level of component hierarchy to handle the pieces of a state which are dependent 
 on each other, instead of a declaration of multiple useState hooks.
-
 In commercial web applications which is larger, the complexity will be high, so using only React Hook may not be sufficient. 
 Few developers will try to tackle the challenge with the help of React Hooks and others will combine React Hooks with the Redux.
 
