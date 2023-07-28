@@ -10,6 +10,7 @@ We can easily declare with the approach of React API functioning with DOM. It he
 in the code logic.
 
 
+
 Here are the excellent advantages of Virtual DOM using React.JS
 
 1. More Outstanding Performance
@@ -53,6 +54,7 @@ Asynchronous Operations and Generators
 Flux Library Technique
 Restructuring Schemes
 Effectiveness of JSX
+
 
 
 
