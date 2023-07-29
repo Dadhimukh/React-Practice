@@ -45,3 +45,20 @@ this.setState() is used to change the value of the state object
 setState() function performs a shallow merge between the new and the previous state
 
 
+
+
+
+
+The setState() method
+A state can be updated in response to event handlers, server responses, 
+or prop changes. This is done using the setState() method. The setState() 
+method enqueues all of the updates made to the component state and instructs 
+React to re-render the component and its children with the updated state.
+
+Always use the setState() method to change the state object, since it will ensure 
+that the component knows it’s been updated and calls the render() method.
+
+Now that we are familiar with the concept of a state in React, let’s have a look at 
+how it is implemented in a React web application.
+
+
