@@ -10,4 +10,3 @@ This rule ensures that Hooks are called in the same order each time a component 
 Rule 2: Only Call Hooks from React Functions
 Hooks can't be called from JavaScript functions. Hooks can be called from React 
 function components instead. Custom Hooks can also be used to call Hooks.
-
